@@ -1,0 +1,458 @@
+@use "./helper/global-rules";
+@use "./helper/mixin" as *;
+@use "./helper/fonts";
+@import "./layout/footer";
+@import "./layout/header";
+
+@include screen-size("mobile") {
+  body {
+    // background-color: red;
+  }
+}
+@include screen-size("tablet") {
+  body {
+    // background-color: green;
+  }
+}
+//header
+@include header();
+
+// main section
+main {
+  .landing {
+    background: url("./img/desert1.jpg") no-repeat, #343a40;
+    background-size: cover;
+
+    position: relative;
+
+    .container {
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 70px;
+      @include screen-size("tablet") {
+        height: 456px;
+        padding-bottom: 48px;
+      }
+      @include screen-size("mobile") {
+        height: 456px;
+        padding-bottom: 32px;
+      }
+      height: 400px;
+      position: relative;
+      .content {
+        max-width: 530px;
+
+        bottom: 70px;
+        color: white;
+        .main-text {
+          position: relative;
+          h1 {
+            @include Edit-font();
+            color: #ffffff;
+          }
+          @include screen-size("mobile") {
+            h1 {
+              font-size: 28px;
+              line-height: 36px;
+            }
+          }
+
+          .text {
+            display: flex;
+            margin-top: 13px;
+            .date {
+              @include Edit-font("Lora", 400, 12px, 15px);
+              color: #e5e5e5;
+            }
+            p {
+              position: relative;
+              @include Edit-font("Lora", 400, 12px, 20px);
+              color: #e5e5e5;
+              margin-left: 50px;
+              &::before {
+                content: "";
+                top: 8px;
+                left: -40px;
+                position: absolute;
+                background-color: #e5e5e5;
+                width: 30px;
+                height: 1px;
+              }
+            }
+          }
+          //slide polite
+          .sliderBullet {
+            display: flex;
+            list-style: none;
+            margin-top: 62px;
+            @include screen-size("mobile") {
+              margin-top: 27px;
+            }
+            li::after {
+              content: "";
+              display: block;
+              @include slider("not");
+            }
+
+            //active polite
+            li.active {
+              @include slider("active");
+            }
+          }
+
+          //this is the adventure words on upper the h1(landing content)
+          &::after {
+            margin-left: 20px;
+            content: "Talentra";
+            position: absolute;
+            top: -40px;
+            left: 0px;
+            padding: 6px 10px;
+            background: black;
+            border-radius: 8px;
+            text-transform: uppercase;
+            @include Edit-font("Roboto", 400, 10px, 12px);
+          }
+        }
+      }
+    }
+  }
+
+  //article section
+  .main-article {
+    margin-top: 70px;
+    @include screen-size(tablet) {
+      margin-top: 64px;
+    }
+    @include screen-size(mobile) {
+      margin-top: 64px;
+    }
+    .container {
+
+      .Caption{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        p{
+          font-size: 12PX;
+          margin-top: 15px;
+        }
+      }
+      ul {
+        margin-bottom: 30px;
+        li {
+          margin-right: 16px;
+          a {
+            color: #495057;
+            @include Edit-font("Lora", 700, 12px, 25px);
+          }
+          .active {
+            color: #d4a373;
+          }
+        }
+      }
+
+      .team{
+        display: grid;
+        margin-bottom: 70px;
+        grid-template-columns: repeat(4,1fr);
+        gap:0px;
+        @include screen-size("tablet") {
+          grid-template-columns: 1fr 1fr;
+        }
+        @include screen-size("mobile") {
+          grid-template-columns: 1fr;
+
+        }
+
+        .author{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+
+          img{
+            width: 200px;
+          }
+
+          .name{
+            display: flex;
+            flex-direction: column;
+            align-items: center;}
+            h4{
+              margin-bottom: 10px;
+            }
+            p{
+              font-size: 12px;
+            }
+        }
+      }
+
+      section {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 50px 20px;
+        padding: 40px 20px;
+        background: #212529;
+
+
+        @include screen-size("tablet") {
+          grid-template-columns: 1fr 1fr;
+          gap: 48px 38px;
+        }
+        @include screen-size("mobile") {
+          grid-template-columns: 1fr;
+          //grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 32px;
+        }
+        .our-work{
+          p,h2{
+            
+            color: white;
+            background-color: transparent;
+            margin-bottom: 8px;
+            // position: unset;
+          }
+          p{
+            font-size: 12px;
+          }
+        }
+        > article {
+
+          border-radius: 5px;
+          background-color: white;
+          position: relative;
+          @include card-label();
+          a {
+            & > img {
+              width: 100%;
+            }
+            @include screen-size("tablet") {
+              & > img {
+                height: 280px;
+                object-fit: cover;
+                border-radius: 5px;
+              }
+            }
+            @include screen-size("mobile") {
+              & > img {
+                max-height: 350px;
+                min-height: 280px;
+                object-fit: cover;
+                border-radius: 5px;
+              }
+            }
+          }
+          .content {
+            padding: 20px;
+            .date {
+              @include Edit-font("Lora", 400, 12px, 15px);
+              color: #6c757d;
+            }
+            h3 {
+              @include Edit-font("Lora", 700, 18px, 25px);
+              margin-top: 15px;
+              color: #495057;
+            }
+            @include screen-size("tablet") {
+              h3 {
+                font-size: 24px;
+                line-height: 32px;
+              }
+            }
+            @include screen-size("mobile") {
+              h3 {
+                font-size: 24px;
+                line-height: 32px;
+              }
+            }
+            > p {
+              @include Edit-font("Lora", 400, 12px, 20px);
+              color: #6c757d;
+              margin-top: 15px;
+              position: relative;
+              // &::before {
+              //   content: "SSS";
+              //   position: absolute;
+              //   background-color: #e5e5e5;
+              //   bottom: -20px;
+              //   height: 0.5px;
+              //   width: 100%;
+              // }
+              @include screen-size("tablet") {
+                font-size: 14px;
+              }
+              @include screen-size("mobile") {
+                font-size: 14px;
+              }
+            }
+            .author {
+              display: flex;
+              align-items: center;
+              margin-top: 40px;
+              .name {
+                margin-left: 17px;
+                h4 {
+                  @include Edit-font("Lora", 700, 12px, 20px);
+                  color: #495057;
+                }
+                p {
+                  @include Edit-font("Lora", 400, 12px, 20px);
+                  color: #495057;
+                }
+              }
+            }
+          }
+        }
+      }
+
+
+    }
+  }
+  .second-section {
+    background: url("./img/Image1.png") no-repeat, #343a40;
+    background-size: cover;
+    height: 600px;
+    @include screen-size("tablet") {
+      height: 427px;
+    }
+    @include screen-size("mobile") {
+      height: 427px;
+    }
+    position: relative;
+    margin-top: 150px;
+    @include screen-size("tablet") {
+      margin-top: 64px;
+    }
+    @include screen-size("mobile") {
+      margin-top: 64px;
+    }
+    .content {
+      max-width: 530px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: white;
+      transform: translate(-50%, -36%);
+      text-align: center;
+      position: relative;
+      &::after {
+        content: "fashion";
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        color: white;
+        @include Edit-font("Roboto", 700, 10px, 12px);
+        text-transform: uppercase;
+        background: rgba(255, 255, 255, 0.15);
+        transform: translateX(-50%);
+        border-radius: 8px;
+        padding: 4px 10px;
+      }
+      h2 {
+        @include Edit-font();
+      }
+      p {
+        //max-width: 420px;
+        padding: 0px 20px;
+        @include Edit-font("Lora", 400, 12px, 20px);
+        color: #e5e5e5;
+        margin-top: 13px;
+      }
+      .time {
+        @include Edit-font("Lora", 400, 12px, 15px);
+        color: #e5e5e5;
+        margin-top: 39px;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: -15px;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: white;
+          width: 30px;
+          height: 1px;
+        }
+      }
+    }
+  }
+
+  //pick section
+  .pick-section {
+    .container {
+      margin-top: 150px;
+      @include screen-size("tablet") {
+        margin-top: 64px;
+      }
+      @include screen-size("mobile") {
+        margin-top: 64px;
+      }
+
+      h2 {
+        @include Edit-font();
+        text-transform: capitalize;
+        color: #495057;
+      }
+      .pick-article {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        margin-top: 70px;
+        @include screen-size("tablet") {
+          margin-top: 30px;
+        }
+        gap: 20px;
+        article {
+          padding: 20px 40px 40px 40px;
+          height: 350px;
+          display: flex;
+          align-items: flex-end;
+          position: relative;
+          border-radius: 5px;
+          .content {
+            max-width: 340px;
+            .label {
+              position: absolute;
+              color: white;
+              top: 20px;
+              right: 0px;
+              span {
+                padding: 4px 10px;
+                background: rgba(255, 255, 255, 0.15);
+                border-radius: 8px;
+                @include Edit-font("Roboto", 700, 10px, 12px);
+                margin-right: 20px;
+              }
+            }
+            .time {
+              @include Edit-font("Lora", 400, 12px, 15px);
+              color: #e5e5e5;
+            }
+            h3 {
+              @include Edit-font("Lora", 700, 18px, 25px);
+              color: #ffffff;
+              margin-top: 15px;
+            }
+            p {
+              @include Edit-font("Lora", 400, 12px, 20px);
+              color: #e5e5e5;
+              margin-top: 15px;
+            }
+          }
+        }
+        .article-1 {
+          background: url("./img/Rectangle1.png") no-repeat, #343a40;
+          background-size: cover;
+        }
+        .article-2 {
+          background: url("./img/Rectangle2.png") no-repeat;
+          background-size: cover;
+        }
+      }
+    }
+  }
+}
+
+//footer

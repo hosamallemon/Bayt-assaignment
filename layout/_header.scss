@@ -1,0 +1,102 @@
+@use "./../helper/global-rules";
+@use "./../helper/mixin" as *;
+@use "./../helper/fonts";
+
+@mixin header {
+    header {
+      padding: 0px 15px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+        background: rgba(0, 0, 0, 0.7);
+        .container {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      
+          // .logo {
+          //   flex: 1;
+          // }
+      
+          //navbar
+          nav {
+            border-right: 0.5px solid #e5e5e5;
+            @include screen-size("mobile") {
+              display: none;
+            }
+      
+            li:not(:last-child) {
+              margin-right: 25px;
+            }
+            li:last-child {
+              margin-right: 17px;
+            }
+            a {
+              text-decoration: none;
+              color: #e5e5e5;
+              @include Edit-font("Roboto", 400, 12px, 14px);
+              text-transform: capitalize;
+              padding-bottom: 6px;
+            }
+            .active {
+              color: white;
+      
+              border-bottom: 2px solid aquamarine;
+            }
+          }
+          .icon {
+            @include screen-size("mobile") {
+              display: none;
+            }
+            height: 20px;
+            ul {
+              height: 100%;
+              li {
+                margin-left: 18px;
+              }
+            }
+          }
+          .search-button {
+            height: 20px;
+            li {
+              margin-left: 17px;
+              padding-left: 17px;
+              border-left: 0.5px solid #e5e5e5;
+              @include screen-size("mobile") {
+                border: none;
+              }
+            }
+          }
+          button {
+            text-decoration: none;
+            background-color: transparent;
+            border: none;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+          .hamburger {
+            display: grid;
+            margin-left: 20px;
+            align-self: center;
+            display: none;
+            @include screen-size("mobile") {
+              display: grid;
+            }
+            li {
+              width: 24px;
+              height: 2px;
+              background-color: white;
+              margin-top: 4px;
+            }
+            li:first-child {
+              margin-top: 0px;
+            }
+          }
+        }
+      }
+}

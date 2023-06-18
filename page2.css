@@ -1,0 +1,1054 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@700&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@400&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@500&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@300&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@700&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@400;700&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@700&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@400&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@500&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@300&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@700&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@400;700&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@700&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@400&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@500&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@300&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@700&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora:wght@400;700&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lora&family=Roboto:ital,wght@0,100;0,400;1,100;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-footer {
+  color: black;
+}
+.main-footer > .container {
+  padding: 15px;
+  padding-right: 208px;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  .main-footer > .container {
+    margin-top: 64px;
+    padding: 32px;
+  }
+  .main-footer > .container .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  .main-footer > .container {
+    margin-top: 64px;
+    padding: 46px 15px;
+  }
+  .main-footer > .container .container {
+    padding: 0px 16px;
+  }
+}
+.main-footer > .container .about-bayt {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  gap: 11px 19px;
+  justify-content: space-between;
+  padding-top: 106px;
+  padding-bottom: 106px;
+}
+@media (max-width: 700px) {
+  .main-footer > .container .about-bayt {
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+  .main-footer > .container .about-bayt .container {
+    padding: 0px 16px;
+  }
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  .main-footer > .container .about-bayt {
+    padding-top: 0px;
+    padding-bottom: 64px;
+  }
+  .main-footer > .container .about-bayt .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  .main-footer > .container .about-bayt {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .main-footer > .container .about-bayt .container {
+    padding: 0px 16px;
+  }
+}
+.main-footer > .container .about-bayt .col h2 {
+  position: relative;
+  color: black;
+  margin-bottom: 16px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  color: black;
+}
+.main-footer > .container .about-bayt .col h2::after {
+  content: " ";
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 100px;
+  height: 3px;
+  background-color: aquamarine;
+}
+.main-footer > .container .about-bayt .col .address {
+  max-width: 114px;
+}
+.main-footer > .container .about-bayt .col a,
+.main-footer > .container .about-bayt .col li,
+.main-footer > .container .about-bayt .col p {
+  color: black;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.main-footer > .container .about-bayt .col p {
+  line-height: 20px;
+}
+.main-footer > .container .about-bayt .col:not(:last-child) ul {
+  flex-direction: column;
+}
+.main-footer > .container .about-bayt .col:not(:last-child) ul li:not(:last-child) {
+  margin-bottom: 16px;
+}
+.main-footer > .container .about-bayt .col:last-child ul li:not(:last-child) {
+  margin-right: 18px;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  .main-footer > .container .about-bayt .col ul:last-child {
+    flex-wrap: wrap;
+  }
+  .main-footer > .container .about-bayt .col ul:last-child .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  .main-footer > .container .about-bayt .col ul:last-child {
+    flex-wrap: wrap;
+  }
+  .main-footer > .container .about-bayt .col ul:last-child .container {
+    padding: 0px 16px;
+  }
+}
+.main-footer .more .container {
+  display: flex;
+  justify-content: center;
+  background: black;
+  font-size: 10PX;
+  color: #e5e5e5;
+  padding-top: 41px;
+  padding-bottom: 41px;
+}
+.main-footer .more .container ul {
+  margin-top: 8px;
+}
+.main-footer .more .container ul li {
+  margin-right: 18px;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  .main-footer .more .container {
+    padding: 23px 32px;
+  }
+  .main-footer .more .container .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  .main-footer .more .container {
+    padding: 23px 16px;
+  }
+  .main-footer .more .container .container {
+    padding: 0px 16px;
+  }
+}
+
+.form1 {
+  background-color: white;
+  padding: 20px;
+}
+.form1 input[type=text] {
+  background-color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #e5e5e5;
+}
+.form1 .btn {
+  display: flex;
+  justify-content: space-between;
+}
+.form1 button {
+  padding: 5px 10px;
+  color: white;
+  background-color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 0px 16px;
+  }
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  .container {
+    padding: 0px 32px;
+  }
+}
+header {
+  padding: 0px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.7);
+}
+header .container {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav {
+  border-right: 0.5px solid #e5e5e5;
+}
+@media (max-width: 700px) {
+  header .container nav {
+    display: none;
+  }
+  header .container nav .container {
+    padding: 0px 16px;
+  }
+}
+header .container nav li:not(:last-child) {
+  margin-right: 25px;
+}
+header .container nav li:last-child {
+  margin-right: 17px;
+}
+header .container nav a {
+  text-decoration: none;
+  color: #e5e5e5;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+  padding-bottom: 6px;
+}
+header .container nav .active {
+  color: white;
+  border-bottom: 2px solid aquamarine;
+}
+header .container .icon {
+  height: 20px;
+}
+@media (max-width: 700px) {
+  header .container .icon {
+    display: none;
+  }
+  header .container .icon .container {
+    padding: 0px 16px;
+  }
+}
+header .container .icon ul {
+  height: 100%;
+}
+header .container .icon ul li {
+  margin-left: 18px;
+}
+header .container .search-button {
+  height: 20px;
+}
+header .container .search-button li {
+  margin-left: 17px;
+  padding-left: 17px;
+  border-left: 0.5px solid #e5e5e5;
+}
+@media (max-width: 700px) {
+  header .container .search-button li {
+    border: none;
+  }
+  header .container .search-button li .container {
+    padding: 0px 16px;
+  }
+}
+header .container button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+header .container button:hover {
+  cursor: pointer;
+}
+header .container .hamburger {
+  display: grid;
+  margin-left: 20px;
+  align-self: center;
+  display: none;
+}
+@media (max-width: 700px) {
+  header .container .hamburger {
+    display: grid;
+  }
+  header .container .hamburger .container {
+    padding: 0px 16px;
+  }
+}
+header .container .hamburger li {
+  width: 24px;
+  height: 2px;
+  background-color: white;
+  margin-top: 4px;
+}
+header .container .hamburger li:first-child {
+  margin-top: 0px;
+}
+
+main .landing {
+  background: url("./img/page-2bg.png") no-repeat, #343a40;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+main .landing .container {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 100px;
+  position: relative;
+}
+@media (max-width: 700px) {
+  main .landing .container {
+    padding-bottom: 32px;
+  }
+  main .landing .container .container {
+    padding: 0px 16px;
+  }
+}
+main .landing .container .content {
+  max-width: 530px;
+  bottom: 70px;
+  color: white;
+  margin-left: 220px;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main .landing .container .content {
+    margin-left: 126px;
+  }
+  main .landing .container .content .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  main .landing .container .content {
+    margin-left: 0px;
+  }
+  main .landing .container .content .container {
+    padding: 0px 16px;
+  }
+}
+main .landing .container .content .main-text {
+  position: relative;
+}
+main .landing .container .content .main-text h1 {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #ffffff;
+}
+@media (max-width: 700px) {
+  main .landing .container .content .main-text .container {
+    padding: 0px 16px;
+  }
+  main .landing .container .content .main-text h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+main .landing .container .content .main-text .landing-text {
+  display: flex;
+  margin-top: 13px;
+}
+main .landing .container .content .main-text .landing-text .text {
+  position: relative;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #e5e5e5;
+  max-width: 420px;
+}
+main .landing .container .content .main-text .sliderBullet {
+  display: flex;
+  list-style: none;
+  margin-top: 62px;
+}
+@media (max-width: 700px) {
+  main .landing .container .content .main-text .sliderBullet {
+    margin-top: 27px;
+  }
+  main .landing .container .content .main-text .sliderBullet .container {
+    padding: 0px 16px;
+  }
+}
+main .landing .container .content .main-text .sliderBullet li::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+main .landing .container .content .main-text .sliderBullet li.active {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+main .landing .container .content .main-text h2 {
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-top: 13px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+}
+main .landing .container .content .main-text::after {
+  content: "fashion";
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  padding: 6px 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+main > .container {
+  display: flex;
+  display: grid;
+  grid-template-columns: 215px 4fr 1fr;
+  margin-top: 105px;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main > .container {
+    margin-top: 37px;
+  }
+  main > .container .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  main > .container {
+    margin-top: 46px;
+  }
+  main > .container .container {
+    padding: 0px 16px;
+  }
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main > .container {
+    grid-template-columns: 191px 5fr auto;
+    max-width: 100%;
+    margin-right: 0px;
+    padding-left: 16px;
+  }
+  main > .container .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  main > .container {
+    margin-right: 0px;
+    grid-template-columns: 1fr;
+  }
+  main > .container .container {
+    padding: 0px 16px;
+  }
+}
+main > .container aside {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding-right: 16px;
+}
+@media (max-width: 700px) {
+  main > .container aside {
+    display: none;
+  }
+  main > .container aside .container {
+    padding: 0px 16px;
+  }
+}
+main > .container aside .date span:first-child {
+  position: relative;
+  margin-right: 50px;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main > .container aside .date span:first-child {
+    margin-right: 6px;
+  }
+  main > .container aside .date span:first-child .container {
+    padding: 0px 32px;
+  }
+}
+main > .container aside .date span:first-child::after {
+  content: "";
+  position: absolute;
+  right: -43px;
+  top: 10px;
+  width: 35px;
+  height: 1px;
+  background-color: #c4c4c4;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main > .container aside .date span:first-child::after {
+    width: 4px;
+    right: -7px;
+  }
+  main > .container aside .date span:first-child::after .container {
+    padding: 0px 32px;
+  }
+}
+main > .container aside p {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  color: #495057;
+}
+main > .container aside p:nth-child(2) {
+  margin-top: 27px;
+}
+main > .container > article {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  flex: 5.05;
+}
+@media (max-width: 700px) {
+  main > .container > article {
+    overflow: hidden;
+  }
+  main > .container > article .container {
+    padding: 0px 16px;
+  }
+}
+main > .container > article h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #495057;
+}
+main > .container > article .sub-article,
+main > .container > article .some-text {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+  margin: 22px 0px;
+  color: #495057;
+}
+main > .container > article h3 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 156% */
+  color: #495057;
+}
+main > .container > article figure {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, minmax(330px, 1fr));
+  overflow-x: hidden;
+  position: relative;
+  padding-bottom: 25px;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main > .container > article figure {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+  main > .container > article figure .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  main > .container > article figure {
+    gap: 8px;
+  }
+  main > .container > article figure .container {
+    padding: 0px 16px;
+  }
+}
+main > .container > article figure img {
+  width: 100%;
+}
+main > .container > article figure .sliderBullet {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  right: 50%;
+}
+@media (max-width: 700px) {
+  main > .container > article figure .sliderBullet {
+    display: flex;
+  }
+  main > .container > article figure .sliderBullet .container {
+    padding: 0px 16px;
+  }
+}
+main > .container > article figure .sliderBullet li {
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  background: rgba(73, 80, 87, 0.2);
+  border-radius: 50%;
+}
+main > .container > article figure .sliderBullet li.active {
+  background: #495057;
+}
+main > .container > article .qoute {
+  display: block;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  color: #d4a373;
+  margin-bottom: 20px;
+}
+main > .container > article .tags {
+  padding-bottom: 55px;
+  border-bottom: 0.5px solid #c4c4c4;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main > .container > article .tags {
+    padding-bottom: 30px;
+  }
+  main > .container > article .tags .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  main > .container > article .tags {
+    padding-bottom: 30px;
+  }
+  main > .container > article .tags .container {
+    padding: 0px 16px;
+  }
+}
+main > .container > article .tags .item {
+  margin-top: 30px;
+  margin-left: 32px;
+  padding: 4px 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #6c757d;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+}
+main > .container > article > .author {
+  margin-top: 55px;
+  margin-bottom: 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main > .container > article > .author {
+    margin-top: 20px;
+  }
+  main > .container > article > .author .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  main > .container > article > .author {
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+  main > .container > article > .author .container {
+    padding: 0px 16px;
+  }
+}
+main > .container > article > .author .author-details {
+  display: flex;
+  align-items: center;
+}
+main > .container > article > .author .author-details img {
+  margin-right: 17px;
+}
+main > .container > article > .author .author-details .name-position .name {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  color: #495057;
+}
+main > .container > article > .author .author-details .name-position .position {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #495057;
+}
+main > .container > article > .author .icon li {
+  margin-left: 10px;
+}
+main .main-article {
+  padding-top: 116px;
+  background: rgba(229, 229, 229, 0.3);
+  padding-bottom: 100px;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main .main-article {
+    padding-top: 64px;
+  }
+  main .main-article .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  main .main-article {
+    margin-top: 64px;
+    padding-top: 0px;
+  }
+  main .main-article .container {
+    padding: 0px 16px;
+  }
+}
+main .main-article .container h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #495057;
+  margin-bottom: 30px;
+}
+main .main-article .container section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px 20px;
+  position: relative;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main .main-article .container section {
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    grid-template-columns: 310px 310px 310px 310px;
+    gap: 48px 38px;
+  }
+  main .main-article .container section .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  main .main-article .container section {
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    grid-template-columns: 310px 310px 310px 310px;
+    gap: 32px;
+  }
+  main .main-article .container section .container {
+    padding: 0px 16px;
+  }
+}
+main .main-article .container section > article {
+  border-radius: 5px;
+  position: relative;
+}
+main .main-article .container section > article .label {
+  position: absolute;
+  color: white;
+  top: 0px;
+  right: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 20px;
+}
+main .main-article .container section > article .label span {
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main .main-article .container section > article .container {
+    padding: 0px 32px;
+  }
+  main .main-article .container section > article:last-child span:first-child {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  main .main-article .container section > article .container {
+    padding: 0px 16px;
+  }
+  main .main-article .container section > article:last-child span:first-child {
+    display: none;
+  }
+}
+main .main-article .container section > article a > img {
+  width: 100%;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main .main-article .container section > article a .container {
+    padding: 0px 32px;
+  }
+  main .main-article .container section > article a > img {
+    height: 280px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 700px) {
+  main .main-article .container section > article a .container {
+    padding: 0px 16px;
+  }
+  main .main-article .container section > article a > img {
+    max-height: 350px;
+    min-height: 280px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 5px;
+  }
+}
+main .main-article .container section > article .content .date {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6c757d;
+  margin-top: 15px;
+}
+main .main-article .container section > article .content h3 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 15px;
+  color: #495057;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main .main-article .container section > article .content .container {
+    padding: 0px 32px;
+  }
+  main .main-article .container section > article .content h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 700px) {
+  main .main-article .container section > article .content .container {
+    padding: 0px 16px;
+  }
+  main .main-article .container section > article .content h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+main .main-article .container section > article .content > p {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #6c757d;
+  margin-top: 15px;
+  position: relative;
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main .main-article .container section > article .content > p {
+    font-size: 14px;
+  }
+  main .main-article .container section > article .content > p .container {
+    padding: 0px 32px;
+  }
+}
+@media (max-width: 700px) {
+  main .main-article .container section > article .content > p {
+    font-size: 14px;
+  }
+  main .main-article .container section > article .content > p .container {
+    padding: 0px 16px;
+  }
+}
+main .main-article .container section > article .content .author {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+main .main-article .container section > article .content .author .name {
+  margin-left: 17px;
+}
+main .main-article .container section > article .content .author .name h4 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  color: #495057;
+}
+main .main-article .container section > article .content .author .name p {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #495057;
+}
+main .main-article .container section .sliderBullet {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  right: 50%;
+}
+@media (max-width: 700px) {
+  main .main-article .container section .sliderBullet {
+    display: flex;
+  }
+  main .main-article .container section .sliderBullet .container {
+    padding: 0px 16px;
+  }
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  main .main-article .container section .sliderBullet {
+    display: flex;
+  }
+  main .main-article .container section .sliderBullet .container {
+    padding: 0px 32px;
+  }
+}
+main .main-article .container section .sliderBullet li {
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  background: rgba(73, 80, 87, 0.2);
+  border-radius: 50%;
+}
+main .main-article .container section .sliderBullet li.active {
+  background: #495057;
+}
+
+.main-footer > .container {
+  margin-top: 0px;
+}/*# sourceMappingURL=page2.css.map */
